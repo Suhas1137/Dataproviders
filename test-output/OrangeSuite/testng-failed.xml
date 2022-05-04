@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="OrangeTest_chrome(failed)">
+    <parameter name="BrowserName" value="Chrome"/>
+    <classes>
+      <class name="com.Test.verifyorange">
+        <methods>
+          <include name="configsetup"/>
+          <include name="verifyorange_tc001"/>
+          <include name="tearDown"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.Test.verifyorange -->
+    </classes>
+  </test> <!-- OrangeTest_chrome(failed) -->
+  <test thread-count="5" name="OrangeTest_firefox(failed)">
+    <parameter name="BrowserName" value="Firefox"/>
+    <classes>
+      <class name="com.Test.verifyorange">
+        <methods>
+          <include name="configsetup"/>
+          <include name="verifyorange_tc001"/>
+          <include name="tearDown"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.Test.verifyorange -->
+    </classes>
+  </test> <!-- OrangeTest_firefox(failed) -->
+</suite> <!-- Failed suite [OrangeSuite] -->
