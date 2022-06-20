@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [kohlSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="kohlTest_chrome(failed)">
+    <parameter name="BrowserName" value="chrome"/>
+    <classes>
+      <class name="com.test.verifyfbTc001">
+        <methods>
+          <include name="configsetup"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="verifykohl"/>
+        </methods>
+      </class> <!-- com.test.verifyfbTc001 -->
+    </classes>
+  </test> <!-- kohlTest_chrome(failed) -->
+  <test thread-count="5" name="kohlTest_firefox(failed)">
+    <parameter name="BrowserName" value="firefox"/>
+    <classes>
+      <class name="com.test.verifyfbTc001">
+        <methods>
+          <include name="configsetup"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="verifykohl"/>
+        </methods>
+      </class> <!-- com.test.verifyfbTc001 -->
+    </classes>
+  </test> <!-- kohlTest_firefox(failed) -->
+</suite> <!-- Failed suite [kohlSuite] -->
