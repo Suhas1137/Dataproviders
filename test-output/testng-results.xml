@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-03T22:15:03 IST" name="OrangeSuite" finished-at="2022-05-03T22:16:09 IST" duration-ms="66250">
+  <suite started-at="2022-06-27T12:18:20 IST" name="OrangeSuite" finished-at="2022-06-27T12:19:00 IST" duration-ms="40546">
     <groups>
     </groups>
-    <test started-at="2022-05-03T22:15:03 IST" name="OrangeTest_chrome" finished-at="2022-05-03T22:15:38 IST" duration-ms="35555">
+    <test started-at="2022-06-27T12:18:20 IST" name="OrangeTest_chrome" finished-at="2022-06-27T12:18:35 IST" duration-ms="15407">
       <class name="com.Test.verifyorange">
-        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:com.Test.verifyorange@291ae]" started-at="2022-05-03T22:15:03 IST" name="Setup" finished-at="2022-05-03T22:15:27 IST" duration-ms="24610" status="PASS">
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:com.Test.verifyorange@291ae]" started-at="2022-06-27T12:18:20 IST" name="Setup" finished-at="2022-06-27T12:18:32 IST" duration-ms="11932" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,23 +18,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="verifyorange_tc001()[pri:0, instance:com.Test.verifyorange@291ae]" started-at="2022-05-03T22:15:27 IST" name="verifyorange_tc001" finished-at="2022-05-03T22:15:38 IST" duration-ms="10627" status="PASS">
+        <test-method signature="verifyorange_tc001()[pri:0, instance:com.Test.verifyorange@291ae]" started-at="2022-06-27T12:18:32 IST" name="verifyorange_tc001" finished-at="2022-06-27T12:18:34 IST" duration-ms="2237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyorange_tc001 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Test.verifyorange@291ae]" started-at="2022-05-03T22:15:38 IST" name="tearDown" finished-at="2022-05-03T22:15:38 IST" duration-ms="268" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Test.verifyorange@291ae]" started-at="2022-06-27T12:18:34 IST" name="tearDown" finished-at="2022-06-27T12:18:35 IST" duration-ms="1182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.Test.verifyorange -->
     </test> <!-- OrangeTest_chrome -->
-    <test started-at="2022-05-03T22:15:38 IST" name="OrangeTest_firefox" finished-at="2022-05-03T22:16:09 IST" duration-ms="30665">
+    <test started-at="2022-06-27T12:18:35 IST" name="OrangeTest_firefox" finished-at="2022-06-27T12:19:00 IST" duration-ms="25106">
       <class name="com.Test.verifyorange">
-        <test-method is-config="true" signature="configsetup()[pri:0, instance:com.Test.verifyorange@694abbdc]" started-at="2022-05-03T22:15:02 IST" name="configsetup" finished-at="2022-05-03T22:15:03 IST" duration-ms="735" status="PASS">
+        <test-method is-config="true" signature="configsetup()[pri:0, instance:com.Test.verifyorange@694abbdc]" started-at="2022-06-27T12:18:19 IST" name="configsetup" finished-at="2022-06-27T12:18:20 IST" duration-ms="678" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configsetup -->
-        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:com.Test.verifyorange@694abbdc]" started-at="2022-05-03T22:15:38 IST" name="Setup" finished-at="2022-05-03T22:15:58 IST" duration-ms="19622" status="PASS">
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:com.Test.verifyorange@694abbdc]" started-at="2022-06-27T12:18:35 IST" name="Setup" finished-at="2022-06-27T12:18:56 IST" duration-ms="20893" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -45,11 +45,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="verifyorange_tc001()[pri:0, instance:com.Test.verifyorange@694abbdc]" started-at="2022-05-03T22:15:58 IST" name="verifyorange_tc001" finished-at="2022-05-03T22:16:07 IST" duration-ms="9344" status="PASS">
+        <test-method signature="verifyorange_tc001()[pri:0, instance:com.Test.verifyorange@694abbdc]" started-at="2022-06-27T12:18:56 IST" name="verifyorange_tc001" finished-at="2022-06-27T12:18:59 IST" duration-ms="2621" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyorange_tc001 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Test.verifyorange@694abbdc]" started-at="2022-05-03T22:16:07 IST" name="tearDown" finished-at="2022-05-03T22:16:09 IST" duration-ms="1695" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Test.verifyorange@694abbdc]" started-at="2022-06-27T12:18:59 IST" name="tearDown" finished-at="2022-06-27T12:19:00 IST" duration-ms="1586" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

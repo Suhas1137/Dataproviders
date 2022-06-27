@@ -15,7 +15,7 @@ public class Library {
 		if(element.isEnabled()) {
 			element.click();
 		}else {
-			System.out.println("unabal to click");
+			System.out.println("unable to click");
 		}
 	}
 }
